@@ -1,4 +1,9 @@
 {
+  "scripts": {
+    "test": "jest",
+    "lint": "npx eslint .",
+    "format": "npx prettier --write ."
+  },
   "devDependencies": {
     "@types/jest": "^28.1.3",
     "@typescript-eslint/eslint-plugin": "^5.29.0",
